@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C++</title>
+    <link rel="stylesheet" media="screen" type="text/css" href="../css/ejemplos.css">
+    <link rel="icon" type="img/jpg" href="../img/icono.jpg">
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="logo">Ejemplo C++</div>
+        </div>
+    </header>
+    <div class="articulo">
+        <p class="parrafo">
+            // Programa que lee un año y muestra si es o no bisiesto<br>
+            #include <iostream><br>
+            using namespace std;<br>
+            int bisiesto(int);   //declaración o prototipo de la función<br>
+            int main()<br>
+            {<br>
+               int anio;<br>
+               cout<<"Introduce a"<<(char)164<<"o: "; //164 ascii de ñ<br>
+               cin >> anio;<br>
+               if(bisiesto(anio))  //llamada a la función<br>
+                  cout << "Bisiesto" << endl;<br>
+               else<br>
+                  cout << "No es bisiesto" << endl;<br>
+               system("pause"); <br>
+            }<br>
+            int bisiesto(int a)   //definición de la función    <br>
+            {<br>
+                if(a%4==0 and a%100!=0 or a%400==0)<br>
+                    return 1;<br>
+                else<br>
+                    return 0;<br>
+            }<br>
+        </p>
+    </div>
+</body>
+</html>

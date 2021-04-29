@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <link rel="stylesheet" media="screen" type="text/css" href="../css/ejemplos.css">
+    <link rel="icon" type="img/jpg" href="../img/icono.jpg">
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="logo">Ejemplo Javascript</div>
+        </div>
+    </header>
+    <div class="articulo">
+        <p class="parrafo">
+            var xd = parseInt(prompt("Inserte el valor del primer tiro"));<br>
+            var po = parseInt(prompt("Ingrese el valor del segundo tiro"));<br>
+            if(xd==po){<br>
+                document.write("Par")<br>
+            } else if((xd+po)<=6){<br>
+                document.write("Juego perdido")<br>
+            } else if((xd==0 || po==1)||(po==0 || xd==1)){<br>
+                document.write("Puntaje deficiente")<br>
+            } else if((xd==5 || xd==6)||(po==5 || po==6)){<br>
+                document.write("Puntaje alto")<br>
+            } else if(xd<po || po<>xd){ <br>
+                document.write("Lanzamiento")<br>
+            } else{<br>
+                document.write("Error")<br>
+            }
+        
+        </p>
+        <p class="parrafo">
+            Resultado:
+            <script src="../js/ejemplo.js"></script>
+        </p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+body{
+	margin: 0;
+    font-family:serif;
+    text-align: justify;
+}
+
+header {
+	overflow:hidden; 
+	background:#2e3546;
+	margin-bottom:20px;
+}
+
+.wrapper {
+	width:90%;
+	max-width:1000px; 
+	margin:auto; 
+	overflow:hidden; 
+}
+
+header .logo {
+	color:#f2f2f2;
+	font-size:40px;
+	line-height:200px;
+	float:left;
+}
+
+.articulo{
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	overflow:hidden; 
+	background:#2e354621;
+	margin-bottom:20px;
+}
+
+.parrafo{
+	margin-left: 100px;
+	margin-right: 100px;
+	font-size: large;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 22px;
+}

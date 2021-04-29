@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java</title>
+    <link rel="stylesheet" media="screen" type="text/css" href="../css/ejemplos.css">
+    <link rel="icon" type="img/jpg" href="../img/icono.jpg">
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="logo">Ejemplo Java</div>
+        </div>
+    </header>
+    <div class="articulo">
+        <p class="parrafo">
+            /* Ejemplo - aprenderaprogramar.com */<br>
+            <br>
+            /* Esta clase representa un  depósito cilíndrico donde se almacena aceite  */<br>
+            <br>
+            public class Deposito {    <br>
+            <br>
+                //Campos de la clase<br>
+                private float diametro;<br>
+                private float altura;<br>
+                private String idDeposito;<br>
+            <br>
+                //Constructor sin parámetros auxiliar<br>
+                public Deposito () { //Lo que hace es llamar al constructor con parámetros pasándole valores vacíos<br>
+                    this(0,0,"");            } //Cierre del constructor<br>
+                    <br>
+                    <br>
+                //Constructor de la clase que pide los parámetros necesarios<br>
+                public Deposito (float valor_diametro, float valor_altura, String valor_idDeposito) {<br>
+                    if (valor_diametro > 0 && valor_altura > 0) {            <br>
+                        diametro = valor_diametro;<br>
+                        altura = valor_altura;<br>
+                        idDeposito = valor_idDeposito;<br>
+                    } else {<br>
+                        diametro = 10;<br>
+                        altura = 5;<br>
+                        idDeposito = "000";<br>
+                        System.out.println ("Creado depósito con valores por defecto diametro 10 metros altura 5 metros id 000" );<br>
+                    }   } //Cierre del constructor<br>
+                    <br>
+                public void setValoresDeposito (String valor_idDeposito, float valor_diametro, float valor_altura) {<br>
+                    idDeposito = valor_idDeposito;<br>
+                    diametro = valor_diametro;<br>
+                    altura = valor_altura;<br>
+                    if (idDeposito !="" && valor_diametro > 0 && valor_altura > 0) {<br>
+                    } else {<br>
+                        System.out.println ("Valores no admisibles. No se han establecido valores para el depósito");<br>
+                        //Deposito (0.0f, 0.0f, ""); Esto no es posible. Un constructor no es un método y por tanto no podemos llamarlo<br>
+                        idDeposito = "";<br>
+                        diametro = 0;<br>
+                        altura = 0;<br>
+                    }     } //Cierre del método<br>
+                    <br>
+                public float getDiametro () { return diametro; } //Método de acceso<br>
+                public float getAltura () { return altura; } //Método de acceso<br>
+                public String getIdDeposito () { return idDeposito; } //Método de acceso<br>
+                public float valorCapacidad () { //Método tipo función<br>
+                    float capacidad;<br>
+                    float pi = 3.1416f; //Si no incluimos la f el compilador considera que 3.1416 es double<br>
+                    capacidad = pi * (diametro/2) * (diametro/2) * altura;<br>
+                    return capacidad;<br>
+                }    <br>
+                <br>
+            } //Cierre de la clase<br>
+        </p>
+    </div>
+</body>
+</html>

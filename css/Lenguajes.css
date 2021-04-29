@@ -1,0 +1,178 @@
+body{
+	margin: 0;
+    font-family:serif;
+    text-align: justify;
+}
+
+header {
+	overflow:hidden; 
+	background:#2e3546;
+	margin-bottom:20px;
+}
+
+.wrapper {
+	width:90%;
+	max-width:1000px; 
+	margin:auto; 
+	overflow:hidden; 
+}
+
+header .logo {
+	color:#f2f2f2;
+	font-size:40px;
+	line-height:200px;
+	float:left;
+}
+
+header nav {
+	float:right;
+	line-height:200px;
+}
+
+header nav a {
+	display:inline-block;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 20px;
+	line-height:normal;
+	font-size:15px;
+	font-weight:bold;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+
+header nav a:hover {
+	background:#be5931b4;
+	border-radius:50px;
+}
+
+
+@media screen and (max-width: 1100px) {
+	header .logo,
+	header nav {
+		width: 100%;
+		text-align: center;
+		line-height: 100px;
+	}
+}
+
+.articulo{
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	overflow:hidden; 
+	background:#2e354621;
+	margin-bottom:20px;
+}
+
+.articulo01{
+	margin-top: 50px;
+	margin-left: 150px;
+	margin-right: 150px;
+	overflow:hidden; 
+	background:#2e354621;
+	margin-bottom:20px;
+}
+
+.titulo01{
+	margin-left: 100px;
+	margin-top: 30px;
+    font-size: 50px;
+}
+
+.titulo02{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.parrafo{
+	margin-left: 100px;
+	margin-right: 100px;
+	font-size: large;
+	margin-top: 30px;
+	margin-bottom: 30px;
+    font-size: 22px;
+}
+
+.imagen01{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.titulo02{
+    size: 10px;
+}
+
+.subtitulo{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.titupaf{
+	margin-left: 100px;
+	margin-top: 30px;
+    margin-right: 100px;
+    font-size: 35px;
+}
+
+.info{
+	margin-left: 100px;
+	margin-right: 100px;
+	font-size: large;
+	margin-top: 30px;
+	margin-bottom: 50px;
+    font-size: 22px;
+}
+
+.img01{
+	display: flex;
+	margin-right: 50px;
+	margin-left: 50px;
+	margin-bottom: 30px;
+	float: right;
+	width: 600px;
+	height: 320px;
+}
+
+.img02{
+	display: flex;
+	margin-right: 50px;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	float: left;
+	width: 600px;
+	height: 320px;
+}
+
+@media screen and (max-width: 1100px) {
+	.img01{
+		width: 100%;
+		text-align: center;
+		line-height: 100px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+    .img02{
+		width: 100%;
+		text-align: center;
+		line-height: 100px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+.imagen02{
+	width: 200px;
+	height: 200px;
+}
+
+.imagen03{
+	width: 400px;
+	height: 66px;
+}
+
+.footer {
+	background-color: #2e3546;
+	color: #fff;
+	text-align: center;
+ }
