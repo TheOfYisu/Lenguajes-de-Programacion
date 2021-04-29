@@ -1,5 +1,8 @@
 body{
 	margin: 0;
+	font-family:serif;
+    text-align: justify;
+	background-color: hsl(42, 23%, 65%);
 }
 
 header {
@@ -53,4 +56,186 @@ header nav a:hover {
 		text-align: center;
 		line-height: 100px;
 	}
+}
+
+.articulo{
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	overflow:hidden; 
+	background:#919ebd7c;
+	margin-bottom:20px;
+}
+
+.articulo01{
+	margin-top: 50px;
+	margin-left: 150px;
+	margin-right: 150px;
+	overflow:hidden; 
+	background:#919ebd7c;
+	margin-bottom:20px;
+}
+
+.titulo01{
+	margin-left: 100px;
+	margin-top: 30px;
+    font-size: 50px;
+}
+
+.titulo02{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.parrafo{
+	margin-left: 100px;
+	margin-right: 100px;
+	font-size: large;
+	margin-top: 30px;
+	margin-bottom: 30px;
+    font-size: 22px;
+}
+
+.imagen01{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.titulo02{
+    size: 10px;
+}
+
+.subtitulo{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.titupaf{
+	margin-left: 100px;
+	margin-top: 30px;
+    margin-right: 100px;
+    font-size: 35px;
+}
+
+.info{
+	margin-left: 100px;
+	margin-right: 100px;
+	font-size: large;
+	margin-top: 30px;
+	margin-bottom: 50px;
+    font-size: 22px;
+}
+
+.img01{
+	display: flex;
+	margin-right: 50px;
+	margin-left: 50px;
+	margin-bottom: 30px;
+	float: right;
+	width: 600px;
+	height: 320px;
+}
+
+.img02{
+	display: flex;
+	margin-right: 50px;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	float: left;
+	width: 600px;
+	height: 320px;
+}
+
+@media screen and (max-width: 1100px) {
+	.img01{
+		width: 100%;
+		text-align: center;
+		line-height: 100px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+    .img02{
+		width: 100%;
+		text-align: center;
+		line-height: 100px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+.imagen02{
+	width: 200px;
+	height: 200px;
+}
+
+.imagen03{
+	width: 400px;
+	height: 66px;
+}
+
+.footer {
+	background-color: #2e3546;
+	color: #fff;
+	text-align: center;
+}
+
+@media screen and (max-width: 800px){
+    .articulo,
+	.titulo01,
+	.parrafo{
+		margin-left: 5px;
+		margin-right: 5px;
+		margin-bottom:20px;
+	}
+	.imagen01{
+		width: 500px;
+		height: 250px;
+	}
+}
+
+@media screen and (max-width: 600px){
+    .articulo,
+	.articulo01,
+	.parrafo,
+	.info{
+		font-size: 15px;
+		margin-left: 5px;
+		margin-right: 5px;
+		margin-bottom:20px;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.titulo01{
+		font-size: 20px;
+		margin-left: 5px;
+		margin-right: 5px;
+		margin-bottom:20px;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.imagen01,
+	.imagen02,
+	.imagen03{
+		width: 300px;
+		height: 160px;
+	}
+}
+
+.parrafo05{
+	margin-left: 100px;
+	margin-right: 100px;
+	font-size: large;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 22px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+.footer {
+	background-color: #2e3546;
+	color: #fff;
+	text-align: left;
+	flex: 0 0 auto;
 }

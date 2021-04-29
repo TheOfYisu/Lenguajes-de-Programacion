@@ -2,6 +2,7 @@ body{
 	margin: 0;
     font-family:serif;
     text-align: justify;
+	background-color: hsl(42, 23%, 65%);
 }
 
 header {
@@ -62,7 +63,7 @@ header nav a:hover {
 	margin-left: 50px;
 	margin-right: 50px;
 	overflow:hidden; 
-	background:#2e354621;
+	background:#919ebd7c;
 	margin-bottom:20px;
 }
 
@@ -71,7 +72,7 @@ header nav a:hover {
 	margin-left: 150px;
 	margin-right: 150px;
 	overflow:hidden; 
-	background:#2e354621;
+	background:#919ebd7c;
 	margin-bottom:20px;
 }
 
@@ -175,4 +176,66 @@ header nav a:hover {
 	background-color: #2e3546;
 	color: #fff;
 	text-align: center;
- }
+}
+
+@media screen and (max-width: 800px){
+    .articulo,
+	.titulo01,
+	.parrafo{
+		margin-left: 5px;
+		margin-right: 5px;
+		margin-bottom:20px;
+	}
+	.imagen01{
+		width: 500px;
+		height: 250px;
+	}
+}
+
+@media screen and (max-width: 600px){
+    .articulo,
+	.articulo01,
+	.parrafo,
+	.info{
+		font-size: 15px;
+		margin-left: 5px;
+		margin-right: 5px;
+		margin-bottom:20px;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.titulo01{
+		font-size: 20px;
+		margin-left: 5px;
+		margin-right: 5px;
+		margin-bottom:20px;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.imagen01,
+	.imagen02,
+	.imagen03{
+		width: 300px;
+		height: 160px;
+	}
+}
+
+.parrafo05{
+	margin-left: 100px;
+	margin-right: 100px;
+	font-size: large;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 22px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+.footer {
+	background-color: #2e3546;
+	color: #fff;
+	text-align: left;
+	flex: 0 0 auto;
+}

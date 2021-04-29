@@ -1,5 +1,9 @@
 body{
 	margin: 0;
+	font-family:serif;
+    text-align: justify;
+	background-color: hsl(42, 23%, 65%);
+	margin-bottom: 0%;
 }
 
 header {
@@ -53,4 +57,66 @@ header nav a:hover {
 		text-align: center;
 		line-height: 100px;
 	}
+}
+
+.parf1{
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	overflow:hidden; 
+	background:hsl(42, 23%, 65%);
+	margin-bottom:20px;
+}
+
+.titupaf{
+	margin-left: 100px;
+	margin-top: 30px;
+	font-size: 45px;
+}
+
+.info{
+	margin-left: 100px;
+	margin-right: 100px;
+	font-size: large;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 22px;
+}
+
+.img01{
+	display: flex;
+	margin-right: 50px;
+	margin-left: 50px;
+	margin-bottom: 10px;
+	float: right;
+	width: 600px;
+	height: 320px;
+}
+
+@media screen and (max-width: 950px) {
+	.img01{
+		width: 100%;
+		text-align: center;
+		line-height: 100px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+.parrafo05{
+	margin-left: 100px;
+	margin-right: 100px;
+	font-size: large;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 22px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+.footer {
+	background-color: #2e3546;
+	color: #fff;
+	text-align: left;
+	flex: 0 0 auto;
 }
